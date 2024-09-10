@@ -1,5 +1,2 @@
 #!/usr/bin/python3
-for c in range(97, 123):
-    if c != 101 and c != 113:
-        print(chr(c), end="")
-print()
+print(''.join(chr(c) for c in range(97, 123) if c not in (101, 113)))
