@@ -1,5 +1,5 @@
 #include "lists.h"
-#include <stddef.h>  // Add this line to include size_t and NULL definitions
+#include <stddef.h>  
 
 /**
  * get_middle - finds the middle of the linked list
